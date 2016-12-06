@@ -1,6 +1,5 @@
 
-    <%= render 'layouts/header'%>
-    <%= render 'layouts/hero'%>
+
 
     <section id="services" class="section services-section text-center">
         <div class="container">
@@ -447,64 +446,7 @@
         </div><!--//container-->
     </section><!--//section-->
 
-    <section id="contact" class="contact-section text-center">
-        <div class="container">
-            <h2 class="section-title">Contact Us</h2>
-            <div class="contact-intro">
-                <p>Working PHP contact form included below to save you time. All you need to do is change the email address in the mailer.php file. Lorem ipsum dolor sit amet, consectetuer adipiscing elit commodo ligula eget.</p>
-            </div>
-            <ul class="contact-info-list list-inline">
-                <li class="item">
-                    <span class="custom-icon icon-telephone_signal"></span>
-                    <span class="info"><a href="#">01234 555 666</a></span>
-                </li>
-                <li class="item">
-                    <span class="custom-icon icon-email"></span>
-                    <span class="info"><a href="#">info@yourwebsite.com</a></span>
-                </li>
-            </ul>
-            <form id="contact-form" class="contact-form form" method="post" action="mailer.php">
-                <div id="form-messages" class="text-center"></div>
-                <div class="row text-left">
-                    <div class="name-group col-sm-6 col-xs-12 form-group">
-                        <div class="form-group-inner">
-                            <label for="cname">Name</label>
-                            <input type="text" class="form-control" id="cname" name="name" placeholder="Your name" minlength="2"  aria-required="true" required>
-                        </div>
-                    </div><!--//name-group-->
-                    <div class="email-group col-sm-6 col-xs-12 form-group">
-                        <div class="form-group-inner">
-                            <label for="cemail">Email</label>
-                            <input type="email" class="form-control" id="cemail" name="email" placeholder="Your email address" aria-required="true" required>
-                        </div>
-                    </div><!--//email-group-->
-                    <div class="phone-group col-sm-6 col-xs-12 form-group">
-                        <div class="form-group-inner">
-                            <label for="cphone">Phone</label>
-                            <input type="tel" class="form-control" id="cphone" name="phone" placeholder="Your phone number" aria-required="true" required>
-                        </div>
-                    </div><!--//phone-group-->
-                    <div class="zipcode-group col-sm-6 col-xs-12 form-group">
-                        <div class="form-group-inner">
-                            <label for="czipcode">Zip Code</label>
-                            <input type="text" class="form-control" id="czipcode" name="zipcode" placeholder="eg.94101" aria-required="true" required>
-                        </div>
-                    </div><!--//zipcode-group-->
-                    <div class="message-group col-xs-12 form-group">
-                        <div class="form-group-inner">
-                            <label for="cmessage">Your project &amp; additional info</label>
-                            <textarea class="form-control" id="cmessage" name="message" rows="6" placeholder="Enter your project info here..."  required></textarea>
-                        </div>
-                    </div><!--//message-group-->
-                    <div class="col-xs-12 form-group">
-                        <button type="submit" class="btn btn-block btn-primary btn-cta">Submit</button>
-                    </div>
-                </div><!--//row-->
-            </form><!--//contact-form-->
-        </div><!--//container-->
-    </section><!--//contact-->
 
-    <%= render 'layouts/footer'%>
 
     <!-- Project Modal 1 -->
     <div id="project-modal-1" class="project-modal modal modal-fullscreen" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label">
@@ -693,26 +635,3 @@
             <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
         </div><!--//panel-inner-->
     </div><!--//configure-panel-->
-
-    <!-- Main Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-inview/jquery.inview.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/isMobile/isMobile.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-    <script type="text/javascript" src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/Bootstrap-Image-Gallery/js/bootstrap-image-gallery.min.js"></script>
-    <script type="text/javascript" src="assets/js/ajax-form.js"></script>
-
-    <script type="text/javascript" src="assets/js/main.js"></script>
-
-    <!--[if !IE]>-->
-    <script type="text/javascript" src="assets/js/animations.js"></script>
-    <!--<![endif]-->
-
-    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-    <script src="assets/js/demo/style-switcher.js"></script>

@@ -1,0 +1,78 @@
+
+   <section id="contact" class="contact-section text-center">
+     <div class="container">
+               <h2 class="section-title">Contact Us</h2>
+               <div class="contact-intro">
+                 <p>Please get in touch with us and our dedicated team wil get back to you as soon as possible. We are appreciate you contacting us..</p>
+               </div>
+               <ul class="contact-info-list list-inline">
+                 <li class="item">
+                   <span class="custom-icon icon-telephone_signal"></span>
+                   <span class="info"><a href="#">01234 555 666</a></span>
+                 </li>
+                 <li class="item">
+                   <span class="custom-icon icon-email"></span>
+                   <span class="info"><a href="#">info@yourwebsite.com</a></span>
+                 </li>
+               </ul>
+
+               <%= form_for @contact do |f| %>
+                   <section id="contact-form" class="contact-form form">
+                     <div id="form-messages" class="text-center "></div>
+                     <div id="form-messages" class="text-center"></div>
+                     <div class="row text-left">
+                      <% if @contact.errors.any? %>
+                          <div id="error_explanation"class="alert alert-danger alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h2><%= pluralize(@contact.errors.count, "error") %> prohibited this mail from being sent.</h2>
+
+                            <ul>
+                              <% @contact.errors.full_messages.each do |message| %>
+                                  <li><%= message %></li>
+                              <% end %>
+                            </ul>
+                          </div>
+                      <% end %>
+
+                   <div class="name-group col-sm-6 col-xs-12 form-group">
+                      <div class="form-group-inner">
+                        <%= f.label :name %>
+                        <%= f.text_field :name, class:'form-control' %>
+                      </div>
+                   </div>
+                    <div class="name-group col-sm-6 col-xs-12 form-group">
+                                <div class="form-group-inner">
+                        <%= f.label :email%>
+                        <%= f.email_field :email, class:'form-control' %>
+                     </div>
+                     </div>
+                     <div class="name-group col-sm-12 col-xs-12 form-group">
+                       <div class="form-group-inner">
+                          <%= f.label :telephone%>
+                          <%= f.text_field :telephone, class:'form-control' %>
+                       </div>
+                     </div>
+                      <div class="name-group col-sm-6 col-xs-12 form-group hidden">
+                                <div class="form-group-inner">
+                        <%= f.label :zipcode %>
+                        <%= f.text_field :zipcode,class:'form-control' %>
+                      </div>
+                      </div>
+
+                       <div class="name-group col-sm-12 col-xs-12 form-group">
+                         <div class="form-group-inner">
+                        <%= f.label :message %>
+                        <%= f.text_area :message, class:'form-control', rows:'10' %>
+                          </div>
+
+                      </div>
+                     <div class="col-xs-12 form-group">
+                      <div class="actions">
+                        <%= f.submit 'Send Message', class: 'btn btn-primary btn-lg pull-right' %>
+                      </div>
+                    </div>
+                        </div>
+                  </section>
+                </div>
+            </section>
+       <% end %>
