@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Trades - Responsive website template for builders and tradesmen
  * Version: 1.0
  * Author: Xiaoying Riley at 3rd Wave Media
@@ -550,35 +550,35 @@ h1.logo img {
   padding-top: 90px;
 }
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url('../images/hero/hero-1.jpg');
+  background-image: url('/assets/images/hero/hero-4.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-2 {
-  background-image: url('../images/hero/hero-2.jpg');
+  background-image: url('/assets/images/hero/hero-4.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-3 {
-  background-image: url('../images/hero/hero-3.jpg');
+  background-image: url('/assets/images/hero/hero-3.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-4 {
-  background-image: url('../images/hero/hero-4.jpg');
+  background-image: url('/assets/images/hero/hero-4.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-5 {
-  background-image: url('../images/hero/hero-5.jpg');
+  background-image: url('/assets/images/hero/hero-5.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -605,6 +605,7 @@ h1.logo img {
   backface-visibility: hidden;
 }
 /* ======= Services Section ======= */
+
 .services-section .item {
   margin-bottom: 60px;
 }
