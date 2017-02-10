@@ -290,6 +290,15 @@ textarea {
   max-width: 760px;
   margin-left: auto;
   margin-right: auto;
+  }
+.vision-section-intro{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 /* ====== Header ======= */
 .topbar {
@@ -607,7 +616,7 @@ h1.logo img {
 /* ======= Services Section ======= */
 
 .services-section .item {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .services-section .item-inner {
   padding: 0 15px;
